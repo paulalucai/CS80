@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Solution 2.16</title>
+	</head>
+
+	<body>
+		<h1>Student Feedback Form</h1>
+			<p>Please tell us how you like our school!</p>
+
+			<form method="post" action="http://www.deitel.com">
+
+				<input type="hidden" name="recipient" value="deitel@deitel.com">
+				<input type="hidden" name="subject" value="Student Feedback Form">
+				<input type="hidden" name="redirect" value="main.html">
+
+				<p><label>Name:<br>
+					<input type="text" name="name" size="25" maxlength="30">
+				</label></p>
+
+				<p><label>Email:<br>
+					<input type="text" name="email" size="25" maxlength="30">
+				</label></p>
+
+				<p>
+					<strong>Things you liked:</strong><br>
+
+					<label>Campus
+						<input type="checkbox" name="thingsliked" value="Campus"></label>
+					<label>Students
+						<input type="checkbox" name="thingsliked" value="Students"></label>
+					<label>Location
+						<input type="checkbox" name="thingsliked" value="Location"></label>
+					<label>Atmosphere
+						<input type="checkbox" name="thingsliked" value="Atmosphere"></label>
+					<label>Dorm Rooms
+						<input type="checkbox" name="thingsliked" value="Dorm Rooms"></label>
+					<label>Sports
+						<input type="checkbox" name="thingsliked" value="Sports"></label>
+				</p>
+
+				<p>
+					<strong>How did you find our school:</strong><br>
+
+					<label>Friends
+						<input type="radio" name="howfound" value="Friends"></label>
+					<label>Television
+						<input type="radio" name="howfound" value="Television"></label>
+					<label>Internet
+						<input type="radio" name="howfound" value="Internet"></label>
+					<label>Other
+						<input type="radio" name="howfound" value="Other"></label>
+				</p>
+
+				<p>
+					<label><strong>Additional Comments:</strong><br>
+						<textarea name="comments" cols="36" rows="5">Enter comments here!</textarea>
+					</label>
+				</p>
+
+				<p>
+					<input type="submit" value="Submit">
+					<input type="reset" value="Clear Form">
+				</p>
+	</body>
+</html>

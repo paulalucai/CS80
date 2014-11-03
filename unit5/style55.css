@@ -1,0 +1,25 @@
+div p {
+	font-weight: bold;
+	text-align: center;
+}
+#first {
+	width: 100px;
+	height: 100px;
+	background-color: lavender;
+	border: 3px solid black;
+	border-radius: 10px;
+}
+#second {
+	width: 100px;
+	height: 100px;
+	background-color: lightblue;
+	border: 3px solid black;
+	border-radius: 50px;
+}
+#third {
+	width: 100px;
+	height: 100px;
+	background-color: lightpink;
+	border: 3px solid black;
+	border-radius: 100px;
+}

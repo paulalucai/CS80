@@ -1,0 +1,24 @@
+div p {
+	font-weight: bold;
+	text-align: center;
+	padding: 80px;
+	text-transform: uppercase;
+}
+#first {
+	width: 200px;
+	height: 200px;
+	background-color: lavender;
+	box-shadow: 15px 15px 20px dimgrey;
+}
+#second {
+	width: 200px;
+	height: 200px;
+	background-color: lightblue;
+	box-shadow: -15px -15px 30px dimgrey;
+}
+#third {
+	width: 200px;
+	height: 200px;
+	background-color: lightpink;
+	box-shadow: 15px 15px 10px dimgrey;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Exercise 3.5</title>
+	</head>
+
+	<body>
+		<section id="1">
+			<details>
+				<summary>Survey Results</summary>
+				<p>Students were asked to rate the food in the cafeteria on a scale of 1 to 10. <mark>The average result was 7.</mark></p>
+
+				1 <meter min="1" max="10" value="7"></meter> 10
+			</details>
+		</section>
+
+		<section id="2">
+			<form>
+				<p><label>Name:
+					<input type="text" id="name" placeholder="Name" autofocus="on" /> (First name)
+				</label></p>
+				<p><label for="txtList">State:
+					<input type="text" id="txtList" placeholder="Enter your state" list="states" />
+					<datalist id="states">
+						<option value="California"></option>
+						<option value="Arizona"></option>
+						<option value="Nevada"></option>
+						<option value="Oregon"></option>
+						<option value="Washington"></option>
+					</datalist>
+				</p>
+				<label>Range:
+					1 <input type="range" min="1" max="100" value="50" /> 100
+				</label>
+			</form>
+		</section>
+	</body>
+</html>

@@ -1,0 +1,103 @@
+<!DOCTYPE html><!-- doctype recommended. 1 pt. -->
+
+<!-- test1cSolution.html
+purpose: CS 80 Test 1c Solution
+author: J. Ken Geddes, Jr.
+date:   09/18/2013
+-->
+<html><!-- html start tag.  1 pt. -->
+
+<head><!-- head start tag.  1 pt. -->
+<meta charset="utf-8"><!-- charset recommended.  1 pt. -->
+<title>Homer Simpson.The Man</title><!-- title as appears in browser titlebar or tab heading.  2 pts. -->
+</head><!-- head end tag.  1 pt. -->
+
+<body><!-- body start tag.  1 pt. -->
+   <header> <!-- header element creates a header for the page. 1 pt. -->
+   <h1><a id="top"></a>Homer Simpson</h1><!-- level 1 header.  1 pt. --><!-- id for internal location .  1 pt. -->
+      <time>2013-09-18</time><!-- time element.  2 pts. -->
+      <figure> <!-- figure element describes the image. 2 pts. -->
+         <img src="homer.jpg" width="118" height="150" alt="picture of Homer Simpson"><!-- img element with all required attributes for inserting a graphic.  6 pts. -->
+         <!-- figurecaption element inserts a figure caption. 1 pt. -->
+         <figcaption><em>Homer Simpson</em><!-- italics.  1 pt. --></figcaption>
+      </figure>
+   </header>
+
+<table border="1"><!-- table element.  3 pts. -->
+   <caption>Doh!</caption><!-- caption for table.  1 pt. -->
+   <tr><td>X</td><td>O</td><td>X</td></tr><!-- rows and cells.  3 pts. -->
+   <tr><td>X</td><td>O</td><td>X</td></tr>
+   <tr><td>X</td><td>O</td><td>X</td></tr>
+</table>
+
+<h3>Education</h3><!-- another header.  1 pt. -->
+<ol><!-- ordered list.  4 pts. -->
+	<li>School of Hard Knocks
+	   <ul><!-- nested unordered list.  3 pts. -->
+	      <li>Bachelor of Science in Everything</li>
+      </ul>
+	</li><!-- list element.  2 pts. -->
+	<li>Santa Monica College
+	   <ul>
+	      <li>Associate of Science in Web Programmer
+	         <ul>
+            <li>Specialized in the Black Widow</li>
+            </ul>
+         </li>
+	      <li>AA in Rock Music Appreciation</li>
+      </ul>
+	</li>
+	<li>University of California at Los Angeles
+	   <ul>
+	      <li>Graduate Certificate in Television Watching</li>
+      </ul>
+	</li>
+</ol>
+
+<details><!-- details element.  3 pts. -->
+<summary>Worldly Experience</summary><!-- summary element represents a summary for the content of the details element.  3 pts. -->
+<ul>
+   <li><strong>Springfield Nucular Power Plant</strong><!-- strong element.  2 pts. --> -  not sure what I'm supposed to do</li>
+   <li>Springfield Donut Barn - master taste&uuml;r: I like the ones with the pink icing.</li><!-- uuml character entity reference.  1 pt. -->
+   <li>Springfield Pork Rind Factory - senior taster</li>   
+   <li>Duff Beer Brewery - taster trainee; supervisor &mdash;Jos&eacute; Antonio Gonz&aacute;lez</li><!-- mdash, eacute and aacute character entity references.  3 pts. -->
+</ul>
+</details>
+
+<h3>Other Skills</h3>
+
+<!-- meter element represents a scale within a range. 3 pts. -->
+<p>My rating in pie eating: 0 <meter min = "0" max = "10" value = "10"></meter> 10</p>
+ 
+<del>XHTML</del><!-- del element.  1 pt. -->HTML5 a<sub>i</sub><!-- sub element. 2 pts. -->100<sup>100</sup><!-- .  2 pts. -->
+
+<h3>The following data will be posted to my server at homerswebsight.com</h3>
+<form method="post" action="http://homerswebsight.com" ><!-- form element with method and action attributes.  7 pts. -->
+   <p><!-- paragraph element.  1 pt. -->
+      <label>Color:<!-- label element.  4 pts. -->
+         <input type = "color"><!-- input type color.  3 pts. --> 
+      </label>
+   </p>
+   <p>
+      <label>How much do you like me? not so much 
+         <input type = "range" min = "0" max = "20" value = "10"><!-- input type range.  3 pts. -->  a bushel and a peck
+      </label>
+   </p>
+   <!-- textarea element, attributes and contents.  8 pts. -->
+   <textarea rows="4" cols="70" name="txaQuoteOfTheDay">"I think, therefore I drink." - Homerism #73
+  
+Or, supply your own wisdom here, if you think you're so smart.</textarea>
+   <p>
+      <label>Please rate my web page: 
+         <input type = "number" min = "0" max = "10" step = "1" value = "10"><!-- input type number.  3 pts. -->
+      </label>
+   </p>
+</form>
+
+<p>&lt;References available upon request&gt;</p><!-- lt character entity reference.  2 pts. --><!-- gt character entity reference.  2 pts. -->
+
+<p>&copy;2012 Homer Simpson Kingdom &amp; Universe, Inc.</p><!-- copy character entity reference.  2 pts. -->
+
+<a href="#top">Top</a><!-- link to internal location.  3 pts. -->
+</body><!-- body end tag.  1 pt. -->
+</html><!-- html end tag.  1 pt. -->

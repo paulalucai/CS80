@@ -1,0 +1,6 @@
+h1 {
+	font-size: 700%;
+   -webkit-text-fill-color: lightblue; /* Will override color (regardless of order) */
+   -webkit-text-stroke-width: 3px;
+   -webkit-text-stroke-color: navy;
+}

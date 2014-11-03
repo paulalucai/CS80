@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Test 2 - Question 31</title>
+		<script type="text/javascript">
+            var firstNumber; // first string entered by user
+            var secondNumber; // second string entered by user
+            var thirdNumber; //third string entered by user
+            var number1; // first number to add
+            var number2; // second number to add
+            var number3; // third number to add
+            var average; // sum of number1 and number2
+
+            // read in first number from user as a string
+            firstNumber = window.prompt( "Enter age of your first best friend:" );
+
+            // read in second number from user as a string
+            secondNumber = window.prompt( "Enter age of your second best friend:" );
+
+            // read in third number from user as a string
+            thirdNumber = window.prompt( "Enter age of your third best friend:" );
+
+            // convert numbers from strings to integers
+            number1 = parseInt( firstNumber ); 
+            number2 = parseInt( secondNumber );
+            number3 = parseInt( thirdNumber );
+
+            average = (number1 + number2 + number3) / 3;
+
+            // display the results
+            document.writeln( "<h1>The average age of your three best friends is " + average.toFixed(2) + " years.</h1>" );
+		</script>
+	</head>
+	<body></body>
+</html>
