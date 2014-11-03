@@ -1,0 +1,54 @@
+h1 {
+  text-transform: uppercase;
+  -webkit-text-stroke: 0.6px white;
+  font-size: 45px;
+}
+body {
+  text-align: center;
+  font-family: Georgia;
+  background-image: url("http://2.bp.blogspot.com/-gPEKWxYOULk/UMRecpefzFI/AAAAAAAAEX0/kjq_ptTUnKs/s1600/London-city-photos-black-and-white-053.jpg");
+  color: #333333;
+}
+p {
+  border: 1px dashed white;
+  color: #fff;
+  margin: 0 auto;
+  max-width: 500px;
+  background: rgba(0, 0, 0, 0.5);
+  box-shadow: 5px 5px 5px #222;
+}
+a {
+  color: white;
+}
+ul {
+  padding: 10px;
+}
+li {
+  padding: 0 10px 0 10px;
+  display: inline;
+}
+img {
+  border: 1px dashed white;
+  opacity: 0.75;
+}
+input {
+  padding: 7px;
+  font-family: georgia;
+  text-transform: lowercase;
+}
+input[type="submit"] {
+  color: #666666;
+}
+footer {
+  padding-top: 110px;
+  font-size: 12px;
+  color: #fff;
+}
+footer a {
+  color: #222;
+  text-decoration: none;
+}
+footer a:hover {
+  font-weight: bold;
+
+}
