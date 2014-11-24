@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<!-- tipcalc.html -->
+<!-- Input total fee to calculate tip -->
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Tip Calculator</title>
+		<script type="text/javascript">
+			// Model
+			var cost, rate, tip;
+
+			//Controller
+			var multiply = function() {
+				// get input data
+				cost = +document.getElementById("cost").value;
+				rate = (+document.getElementById("rate").value) / 100;
+
+				// do the addition
+				tip = cost * rate;
+
+				// output result
+				document.getElementById("multiply").innerHTML = "Tip: $" + tip.toFixed(2);
+			}
+			
+		</script>
+	</head>
+	<body>
+		<p>
+			<label>Original Cost: $<input type="number" id="cost"></label>
+		</p>
+		<p>
+			<label>Tip Rate: <input type="text" id="rate">%</label>
+		</p>
+		<p>
+			<input type="button" onclick="multiply();" value="Calculate Tip">
+		</p>
+		<div id="multiply"></div>
+	</body>
+</html>

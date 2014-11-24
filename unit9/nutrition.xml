@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<product>
+	<cookies>
+		<brand>Grandma White's Cookies</brand>
+		<nutrition_facts>
+			<serving_size>1 package</serving_size>
+			<calories>Calories: 260
+				<fat_cals>Fat Calories: 100</fat_cals>
+			</calories>
+			<fat>Total Fat: 11g
+				<sat_fat>Saturated Fat: 2g</sat_fat>
+			</fat>
+			<cholesterol>Cholesterol: 5mg</cholesterol>
+			<sodium>Sodium: 210mg</sodium>
+			<carbs>Carbohydrates: 36g</carbs>
+			<fiber>Fiber: 2g</fiber>
+			<sugar>Sugar: 15g</sugar>
+			<protein>Protein: 5g</protein>
+		</nutrition_facts>
+	</cookies>
+</product>
